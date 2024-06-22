@@ -1,8 +1,12 @@
 package Batch2;
+import java.util.Scanner;
 
 public class ifelse {
     public static void main(String[] args) {
-        int number = 0; // Change this number to test different cases
+
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
 
         if (number > 0) {
             System.out.println(number + " is positive.");
